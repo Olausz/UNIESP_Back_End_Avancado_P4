@@ -30,6 +30,10 @@ public class UsuarioController {
 	public ResponseEntity cadastro (@RequestBody @Valid DadosCadastroUsuario dados,
 									UriComponentsBuilder uriBuilder) {
 		
+		if (repository.findByLogin(dados.login()) != null ){
+			return ResponseEntity.badRequest().body("Logn já Cadastrado!!!!");
+		}
+		
 		var senhaCriptografada = passwordEncoder.encode(dados.senha());
 		
 		var usuario = new Usuario(dados.login(),senhaCriptografada);
