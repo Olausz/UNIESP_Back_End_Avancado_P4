@@ -1,0 +1,3 @@
+# Backup do Token
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJhbmEuc291emFAdm9sbC5tZWQiLCJleHAiOjE3NDU4NzQyNDN9.KdPAlmNlZmJl786egh8tdk4ll8vC8AgJfw2OGjh4e1g
